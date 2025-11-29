@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ZenPods X Landing Page
 
-## Getting Started
+A **fully responsive landing page** for the ZenPods X wireless earbuds. Built using **Next.js** and **Tailwind CSS**, this project demonstrates modern UI design, responsiveness, and interactive components like a mobile menu and pricing selection.
 
-First, run the development server:
+---
+
+## **Demo**
+
+* **Live Link:** : https://zenpodsx.vercel.app/
+* **Repository:** https://github.com/hafeezchoudhary/ZenPods-X-Next-Gen-Wireless-Earbuds/
+
+---
+
+## **Features**
+
+* **Hero Section:** Heading, subtext, CTA buttons (Pre-order / Explore Features)
+* **Features Section:** Minimum 3 product features displayed in cards
+* **Testimonials Section:** Highlights user reviews with responsive cards
+* **Pricing Section:** 3 pricing plans with selection feature; featured plan highlighted
+* **Footer:** Company info, product links, and copyright
+* **Responsive Navigation:** Mobile menu with toggle (hamburger → cross)
+* **Interactive UI:** Clickable pricing plans with active highlight
+
+---
+
+## **Tech Stack**
+
+* **Next.js 13** — React framework
+* **Tailwind CSS** — Styling and responsive layout
+* **React Hooks** — For state management (menu toggle, pricing selection)
+* **Vercel** — Deployment platform
+
+---
+
+## **Installation & Setup**
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/hafeezchoudhary/ZenPods-X-Next-Gen-Wireless-Earbuds.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open (http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## **Usage Instructions**
 
-## Learn More
+* **Mobile Navigation:** Click the hamburger icon to open menu; click anywhere or cross to close
+* **Pricing Plans:** By default, the middle plan ("Pro") is selected and highlighted; click other plans to select them
+* **Buttons:** “Pre-order Now” and “Explore Features” adjust layout based on screen size
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **Vercel v0 Usage**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Initial UI components (Hero, Features, Pricing, Footer) were visually prototyped in **Vercel v0**.
+* Final project is fully hand-coded with Tailwind and React, with added interactivity not automatically provided by Vercel v0.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **Notes**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Fully responsive for all screen sizes (mobile, tablet, desktop)
+* Clean, modern, sky-blue theme with highlighted primary actions
+* Well-structured React components for easy maintenance
+
+---
